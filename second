@@ -45,3 +45,10 @@ else
 printf("Element %d not found in the array.\n", TARGET);  
 return 0;  
 }  
+
+
+commands::
+
+vi programName.c
+cc programName.c -fopenmp
+./a.out
