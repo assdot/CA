@@ -43,3 +43,10 @@ printf("Thread %d: d[%d]= %f\n",tid,i,d[i]);
 } /* end of sections */ 
 printf("Thread %d done.\n",tid); 
 }
+
+
+commands::
+
+vi programName.c
+cc programName.c -fopenmp
+./a.out
