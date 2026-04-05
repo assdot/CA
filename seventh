@@ -54,3 +54,11 @@ printf("\n");
 printf("******************************************************\n"); 
 printf ("Done.\n"); 
 }
+
+
+
+commands::
+
+vi programName.c
+cc programName.c -fopenmp
+./a.out
