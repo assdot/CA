@@ -14,3 +14,10 @@ for (i=0; i < n; i++)
 sum = sum + (a[i] * b[i]); 
 printf(" Sum = %f\n",sum); 
 }
+
+
+commands::
+
+vi programName.c
+cc programName.c -fopenmp
+./a.out
