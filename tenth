@@ -1,12 +1,13 @@
 #include <stdio.h> 
 #include <omp.h> 
+#include<stdlib.h>
 #define N 100000000 
 #define TRUE 1 
 #define FALSE 0 
 
 int main(int argc, char **argv ) 
 { 
-char host[80]; 
+// char host[80]; 
 int *a; 
 int i, k, threads, pcount; 
 double t1, t2; 
