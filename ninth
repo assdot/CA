@@ -1,7 +1,8 @@
 #include <stdio.h> 
 #include <malloc.h> 
 #include <omp.h> 
-
+#include <stdlib.h>
+#include<string.h>
 long long factorial(long n) 
 { 
 long long i,out; 
