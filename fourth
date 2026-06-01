@@ -11,8 +11,7 @@ int dest;
 } Instruction; 
 
 
-typedef struct { 
- Destination register 
+typedef struct {  
 char type;
 int op1;  
 int op2;  
